@@ -1,0 +1,26 @@
+para que esta inyección de dependencias? para evitar el acoplamiento de clases
+
+objeto repositorio es de la capa infraestructura
+
+dominio -> clases
+application -> servicios
+
+routeo consiste en mapear la request con los actionmethods
+
+que orm usamos en nuestro proyecto? ---> Entity Framework
+
+ruteo es relacionar url de la request y en que método del controlador caigo
+
+FromQuery: mandas información a través del url
+
+firma de método: método, nombre y firma de método
+
+objeto: tiene nombre y atributos
+
+que es el constructor: es el metodo que se ejecuta al crear una instancia
+
+recomendable no tener mas de 2 constructores porque se sobrecarga el código
+
+que hacen los controllers dentro del código? 
+Reciben la solicitud del usuario y seleccionan el actionmethod de acuerdo a la request solicitada (routeo)
+
